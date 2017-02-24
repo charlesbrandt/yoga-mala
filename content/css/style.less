@@ -1,0 +1,409 @@
+@import 'elements.less';
+
+
+body    {
+        background: #BFE0F7;
+	color: #E20000;
+	text-align: center;
+	font-family: Papyrus, Artifika, cursive;
+	font-size: 16pt;
+	}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: Papyrus, Artifika, cursive;
+}
+
+/*p       { align:'center' }*/
+p {
+  margin-left: 1em;
+  margin-right: 1em;
+  max-width: 800px;
+}
+
+blockquote {
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 0.8em;
+  
+}  
+
+.day-of-week {
+  padding-left: .5em;
+}
+
+.one-class {
+  padding-left: 0em;
+}
+
+.l-box {
+  padding: 1em;
+}
+
+.p-box {
+  padding-right: 1em;
+}
+
+#content {
+  margin-bottom: 50px;
+}
+
+
+#nav {
+  position: absolute;
+  right: 0;
+}
+
+#nav ul li {
+  float: left;
+}
+
+#nav ul li a {
+  display: block;
+  padding: 0 10px;
+}
+
+.menu-wrapper {
+  z-index: 2;
+  //position: fixed;
+  width: 100%;
+  height: 8.9em;
+  //line-height: 3.8em;
+  //background-color: rgba(64, 64, 64, 0.8);
+  margin-bottom: 1em;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -ms-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+.menu-wrapper h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu-wrapper.open {
+  height: 19em;
+}
+
+
+.horizontal-visible {
+    display: inline-block;
+}
+
+  
+.custom-menu-3 {
+  text-align: center;
+  font-family: Papyrus, Artifika, cursive;
+  font-weight: bold;
+}
+
+.custom-brand {
+  max-width: 100%;
+}
+
+.menu-toggle {
+  width: 3.8em;
+  height: 3.8em;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+.menu-toggle .bar {
+  background-color: #E20000;
+  display: block;
+  width: 2.508em;
+  height: 0.38em;
+  border-radius: 100px;
+  position: absolute;
+  top: 1.71em;
+  right: 0.608em;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.menu-toggle .bar:first-child {
+  -webkit-transform: translateY(-0.76em);
+  -moz-transform: translateY(-0.76em);
+  -ms-transform: translateY(-0.76em);
+  transform: translateY(-0.76em);
+}
+
+.menu-toggle .bar:last-child {
+  -webkit-transform: translateY(0.76em);
+  -moz-transform: translateY(0.76em);
+  -ms-transform: translateY(0.76em);
+  transform: translateY(0.76em);
+}
+
+.menu-toggle.x .bar {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.menu-toggle.x .bar:first-child {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 47.999em) {
+  h1 {
+    margin: 0;
+  }
+
+  .horizontal-visible {
+    display: none;
+  }
+
+  /*
+  .pure-menu-horizontal {
+    display: none;
+  }
+  */
+  
+  .custom-menu-3 {
+    text-align: left;
+  }
+  .custom-brand {
+    max-width: 75%;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .pure-menu-item {
+    line-height: 1.2em;
+  }
+  .menu-wrapper {
+    height: 6.8em;
+  }
+  
+}
+
+@media (max-width: 32.5em) {
+  .menu-wrapper {
+    height: 3.0em;
+  }
+  
+  .one-class {
+    padding-left: 0em;
+  }
+
+}
+
+.section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: inline-block;
+}
+
+.roundedbox () {
+    .rounded(@radius);
+    .bordered(@bordercolor, @bordercolor, @bordercolor, @bordercolor);
+    background: #69AAB6;
+    //background: @bordercolor;
+    .section();
+}
+
+
+/* .class #id */
+
+h3 { margin-top: 10;
+   }
+
+#centerwrapper {
+  //padding-top: 8em;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 850px;
+}
+
+/*
+#header {
+		margin-left:auto;
+		margin-right:auto;
+	       }
+*/
+
+/* Style for the footer */
+#footer	{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  padding: 2px;
+  margin: auto; 
+  border-top: 1px solid #EFE9ED;
+  //font-size: 11;
+  font-size: 0.8em;
+  max-width: 750px;
+}
+
+.centered {
+    margin-left:auto;
+    margin-right:auto;
+    display: inline-block;
+}
+
+
+.level {
+    font-size: 11pt;
+}
+
+.yoga-classes {
+    margin-left: 60px;
+    list-style-type: none;
+}
+
+.yoga-class {
+    margin-bottom: 30px;
+    font-size: 14pt;
+}
+    
+.yoga-class-title {
+    font-size: 15pt;
+    text-decoration: underline;
+}
+    
+
+/* table formatting */
+.schedule {
+    font-size: 16pt;
+    padding: 5px 20px 0px 20px;
+    margin: 0px;
+}
+
+.teachers {
+    font-size: 16pt;
+    padding: 10px;
+    align: top;
+}
+
+#question {
+    text-align: left;
+    font-size: 12;
+}
+
+img { border: 0; }
+
+IMG.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+div.row {
+    clear: both;
+}
+div.row span.left {
+    float: left;
+
+}
+div.row span.right {
+    float: right;
+}
+
+div.centered { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.text {
+    color: #000000;
+    font-size:11px;
+    line-height:15px;
+    }
+
+a, a:link	{
+	margin:0; 
+	color: #e20000;
+	}
+
+a:visited {
+	margin:0; 
+	color: #e20000;
+	}
+
+a.schedule-link {
+    text-decoration: none;
+}
+    
+.pure-menu-link {
+    padding: .5em;
+}
+
+.classes-menu {
+  text-align: center;
+}
+
+#class_nav {
+  font-size: 16pt;
+  
+  //width: 770px;
+  width: 100%;
+  height: 110px;
+  
+  line-height: 2em;
+  text-align:center; 
+  margin-left:auto;
+  margin-right:auto;
+  display: inline-block;
+  
+}
+	
+#class_nav ul { 
+    padding:0; 
+    margin:0; 
+} 
+
+#class_nav ul li { 
+  //float: left; 
+  list-style: none; 
+  /*margin: 0px 3px 0px 3px;*/
+  margin-right: 10px;
+  
+  // border: solid;
+  @radius: 5px;
+  @bordercolor: #71176C;
+  .roundedbox();
+
+  margin-top: .5em;
+  margin-bottom: .5em;
+
+} 
+
+#class_nav a:link, a:visited	{
+	padding: 0px 4px; 
+	margin:0; 
+	text-decoration: none;
+	color: #e20000;
+	}
+
+#class_nav a:hover	{
+	background: #1592A5;
+	/* #866E2B; green
+	   #CB49A3; light purple
+	   #7D2F7B; dark purple
+	*/
+	text-decoration: none;
+}
+
+
+
+
+
+/*
+      BODY {font-family:"Verdana"; font-size:11;margin:0px;padding:0px;text-align:center;min-width:760px;}
+      FORM {margin:0;padding:0;}
+*/
+

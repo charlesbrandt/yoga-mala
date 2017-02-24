@@ -1,0 +1,281 @@
+/* .class #id */
+
+*{
+	padding: 0;
+	margin: 0;
+	}
+
+body    {
+        background: #BFE0F7;
+	color: #E20000;
+	text-align: center;
+	font-family: Papyrus, Artifika, cursive;
+	font-size: 16pt;
+/* 
+#82CDC8; 
+7FB9C3; close
+1FA9AC; too dark
+	font-family: Papyrus, Artifika, cursive;
+	1em Arial, Helvetica, sans-serif; 
+	font: Papyrus, Artifika, cursive;
+*/
+	}
+
+/*p       { align:'center' }*/
+
+h3 { margin-top: 10;
+   }
+
+#centerwrapper {text-align:left;
+		width:800px;
+		margin-left:auto;
+		margin-right:auto;
+	       }
+
+/*
+#header {
+		margin-left:auto;
+		margin-right:auto;
+	       }
+*/
+
+.centered {
+		margin-left:auto;
+		margin-right:auto;
+	       }
+
+
+.level {
+    font-size: 11pt;
+}
+
+.ashtangas {
+    margin-left: 60px;
+    list-style-type: none;
+}
+
+.ashtanga {
+    margin-bottom: 30px;
+    font-size: 14pt;
+}
+    
+.ashtanga-title {
+    font-size: 15pt;
+    text-decoration: underline;
+}
+    
+
+/* table formatting */
+.schedule {
+    font-size: 16pt;
+    padding: 5px 20px 0px 20px;
+    margin: 0px;
+}
+
+.teachers {
+    font-size: 16pt;
+    padding: 10px;
+    align: top;
+}
+
+#content { margin-top: 50;
+	   margin-bottom: 50;
+	   }
+
+#question {
+    text-align: left;
+    font-size: 12;
+}
+
+img { border: 0; }
+
+IMG.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+div.row {
+    clear: both;
+}
+div.row span.left {
+    float: left;
+
+}
+div.row span.right {
+    float: right;
+}
+
+div.centered { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.text {
+    color: #000000;
+    font-size:11px;
+    line-height:15px;
+    }
+
+a, a:link	{
+	margin:0; 
+	color: #e20000;
+	}
+
+a:visited {
+	margin:0; 
+	color: #e20000;
+	}
+
+a.schedule-link {
+    text-decoration: none;
+}
+    
+
+/*Style for the nav menu */
+#nav {
+	font-size: 10pt;
+	/*
+	*/
+
+	/*
+	font-size: 16pt;
+
+	position: relative;
+	font-family: Artifika, cursive;
+
+        #this works, but different browsers render width differently
+        #and this is the width that is centered.
+        #would be better if it was using the calculated widths to center with
+
+        #this is the width without events option (standard)
+	width:820;
+	#this is the width with events option:
+	width:915;
+	#events only, no explicit home link:
+	width:840;
+	#no events, no home link:
+	width: 770
+	*/
+	width:770;
+	line-height: 2em;
+	text-align:center; 
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+	
+#nav ul { 
+    padding:0; 
+    margin:0; 
+} 
+
+#nav ul li { 
+        float: left; 
+	list-style: none; 
+	padding: 0px;
+	/*margin: 0px 3px 0px 3px;*/
+	} 
+	
+#nav a:link, a:visited	{
+	padding: 0px 4px; 
+	margin:0; 
+	text-decoration: none;
+	color: #e20000;
+	}
+
+#nav a:hover	{
+	background: #1592A5;
+	/* #866E2B; green
+	   #CB49A3; light purple
+	   #7D2F7B; dark purple
+	*/
+	text-decoration: none;
+}
+
+
+
+
+#class_nav {
+	font-size: 16pt;
+	/*
+	*/
+
+	/*
+	font-size: 16pt;
+
+	position: relative;
+	font-family: Artifika, cursive;
+
+        #this works, but different browsers render width differently
+        #and this is the width that is centered.
+        #would be better if it was using the calculated widths to center with
+
+        #this is the width without events option (standard)
+	width:820;
+	#this is the width with events option:
+	width:915;
+	#events only, no explicit home link:
+	width:840;
+	#no events, no home link:
+	width: 770
+	*/
+	width:770;
+	line-height: 2em;
+	text-align:center; 
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+	
+#class_nav ul { 
+    padding:0; 
+    margin:0; 
+} 
+
+#class_nav ul li { 
+        float: left; 
+	list-style: none; 
+	padding: 0px;
+	/*margin: 0px 3px 0px 3px;*/
+        padding-right: 20px;
+        border: solid;
+	} 
+	
+#class_nav a:link, a:visited	{
+	padding: 0px 4px; 
+	margin:0; 
+	text-decoration: none;
+	color: #e20000;
+	}
+
+#class_nav a:hover	{
+	background: #1592A5;
+	/* #866E2B; green
+	   #CB49A3; light purple
+	   #7D2F7B; dark purple
+	*/
+	text-decoration: none;
+}
+
+
+
+
+/* Style for the footer */
+#footer	{
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	padding: 2px;
+	margin: auto; 
+	border-top: 1px solid #EFE9ED;
+	font-size: 11;
+	/*font-size: 0.8em;*/
+	width: 750px;
+	}
+
+
+/*
+      BODY {font-family:"Verdana"; font-size:11;margin:0px;padding:0px;text-align:center;min-width:760px;}
+      FORM {margin:0;padding:0;}
+*/
+
