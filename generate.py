@@ -16,7 +16,7 @@ from moments.timestamp import Timestamp
 from moments.path import Path
 from moments.filters import to_ascii
 
-base_dir = '/c/clients/yoga-mala-site'
+base_dir = '/c/public/yoga-mala-site'
 if not os.path.exists(base_dir):
     print("Set base dir: %s" % base_dir)
     exit()

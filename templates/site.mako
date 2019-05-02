@@ -73,6 +73,7 @@ ga('send', 'pageview');
             <li class="pure-menu-item"><a href="classes-ashtanga.html" class="pure-menu-link">Classes</a></li> 
             <li class="pure-menu-item"><a href="teachers.html" class="pure-menu-link">Teachers</a></li> 
             <li class="pure-menu-item"><a href="pricing.html" class="pure-menu-link">Pricing</a></li> 
+            <li class="pure-menu-item"><a href="events.html" class="pure-menu-link">Events</a></li> 
             <li class="pure-menu-item"><a href="about-yoga.html" class="pure-menu-link">About Yoga</a></li> 
             <li class="pure-menu-item"><a href="faqs.html" class="pure-menu-link">FAQ</a></li> 
             <li class="pure-menu-item"><a href="contact.html" class="pure-menu-link">Contact Us</a></li> 
